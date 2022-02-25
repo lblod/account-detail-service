@@ -1,6 +1,6 @@
 {
   "name": "account-detail-service",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "fetch account detail for a logged in user",
   "main": "app.js",
   "author": "redpencil.io",
