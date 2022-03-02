@@ -52,4 +52,16 @@ steps:
     purge: true
 trigger:
   event:
-    - tag
+    - tag---
+kind: secret
+name: docker_username
+data: EyLXEnijCfRTylxzOA9C/cUIgOPTSdG7M122QOmWJI7PQ9azFS8q5Q==
+---
+kind: secret
+name: docker_password
+data: RjkT7udPiY+KfGf1bo/unXKPsbijHviav9NVmp3JJl/YTZZLEphMvJAYO2lKftSvx8MzD34SSCVilKq/NuzFzg==
+---
+kind: signature
+hmac: c56bed6192abed9f6faafffcb4fc9405cc68ab704daf73a58cb213a242402c68
+
+...
